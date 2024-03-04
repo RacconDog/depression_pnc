@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 83a17d0ac9bcdd443a9fdca83d87f8cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8748860807177307348
+    second: bed_dog_scared_0
+  - first:
+      213: 7561285097223834924
+    second: bed_dog_scared_1
+  - first:
+      213: 687597521026988968
+    second: bed_dog_scared_2
+  - first:
+      213: -2029957455618913767
+    second: bed_dog_scared_3
+  - first:
+      213: 5778025146162748806
+    second: bed_dog_scared_4
+  - first:
+      213: 7079471685883226837
+    second: bed_dog_scared_5
+  - first:
+      213: -8434794193011916010
+    second: bed_dog_scared_6
+  - first:
+      213: -994194397532068752
+    second: bed_dog_scared_7
+  - first:
+      213: 5904178514341193074
+    second: bed_dog_scared_8
+  - first:
+      213: 4978843299210869912
+    second: bed_dog_scared_9
+  - first:
+      213: 5089012035849381234
+    second: bed_dog_scared_10
+  - first:
+      213: -6362221471445048359
+    second: bed_dog_scared_11
+  - first:
+      213: 8516589646753153174
+    second: bed_dog_scared_12
+  - first:
+      213: -6938690778573504263
+    second: bed_dog_scared_13
+  - first:
+      213: 4871505328133228854
+    second: bed_dog_scared_14
+  - first:
+      213: 5315401521921824137
+    second: bed_dog_scared_15
+  - first:
+      213: 2004162391440839623
+    second: bed_dog_scared_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bed_dog_scared_0
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 652
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40429fc823a6970800000000000000
+      internalID: 8748860807177307348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_1
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 475
+        width: 406
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d4b790cb41fe860800000000000000
+      internalID: 7561285097223834924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_2
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 727
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abb0456d46da8900800000000000000
+      internalID: 687597521026988968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_3
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 740
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91acda4037424d3e0800000000000000
+      internalID: -2029957455618913767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 603
+        width: 25
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d1e44d14baf2050800000000000000
+      internalID: 5778025146162748806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 639
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da618a5df55f3260800000000000000
+      internalID: 7079471685883226837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_6
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 633
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6134ff3fe5791fa80800000000000000
+      internalID: -8434794193011916010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_7
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 614
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074ea618679e332f0800000000000000
+      internalID: -994194397532068752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_8
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 639
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275eccdb31bdfe150800000000000000
+      internalID: 5904178514341193074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 646
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3cc10a97681540800000000000000
+      internalID: 4978843299210869912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 581
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756d7edb7dcf9640800000000000000
+      internalID: 5089012035849381234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_11
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 581
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3a72cb749d4b7a0800000000000000
+      internalID: -6362221471445048359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 580
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690cd703921013670800000000000000
+      internalID: 8516589646753153174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_13
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 475
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f009d8ef71d4bf90800000000000000
+      internalID: -6938690778573504263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_14
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 475
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639cdcc19401b9340800000000000000
+      internalID: 4871505328133228854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_15
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 514
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98598b0a58914c940800000000000000
+      internalID: 5315401521921824137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed_dog_scared_16
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 497
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c35706931730db10800000000000000
+      internalID: 2004162391440839623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
