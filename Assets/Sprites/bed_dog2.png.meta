@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bed_dog2_0: 22329486427119398
+      bed_dog2_1: 8004442139482362085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

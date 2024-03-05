@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,10 +120,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -514,7 +514,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bed_dog_scared_0: 8748860807177307348
+      bed_dog_scared_1: 7561285097223834924
+      bed_dog_scared_10: 5089012035849381234
+      bed_dog_scared_11: -6362221471445048359
+      bed_dog_scared_12: 8516589646753153174
+      bed_dog_scared_13: -6938690778573504263
+      bed_dog_scared_14: 4871505328133228854
+      bed_dog_scared_15: 5315401521921824137
+      bed_dog_scared_16: 2004162391440839623
+      bed_dog_scared_2: 687597521026988968
+      bed_dog_scared_3: -2029957455618913767
+      bed_dog_scared_4: 5778025146162748806
+      bed_dog_scared_5: 7079471685883226837
+      bed_dog_scared_6: -8434794193011916010
+      bed_dog_scared_7: -994194397532068752
+      bed_dog_scared_8: 5904178514341193074
+      bed_dog_scared_9: 4978843299210869912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
