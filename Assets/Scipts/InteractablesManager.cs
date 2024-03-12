@@ -10,9 +10,11 @@ public class InteractablesManager : MonoBehaviour
     [SerializeField] private List<GameObject> interactables;
     [SerializeField] private List<PlayableAsset> animations;
 
+    [SerializeField] private PlayableDirector dogAnim;
     [SerializeField] PlayableDirector timeline;
 
     Camera mainCamera;
+    [SerializeField] int gameIndex = 1;
 
     void Start() 
     {
@@ -22,6 +24,15 @@ public class InteractablesManager : MonoBehaviour
     public void PlayAnim(GameObject go)
     {
         int index = interactables.IndexOf(go);
-        timeline.Play(animations[index]);
+        
+        if (index == gameIndex)
+        {
+            timeline.Play(animations[index]);
+            gameIndex += 1;
+        }
+        if (go == dogAnim.gameObject)
+        {
+            dogAnim.enabled = false;
+        }
     }
 }

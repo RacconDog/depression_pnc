@@ -39,7 +39,6 @@ public class CursorController : MonoBehaviour
             dragableState = false;
         }
 
-
         if (dragableState == true)
         {
             mouseDelta = new Vector3(Input.mousePositionDelta.x * dragMultiplier / 1000, 0, 0);
