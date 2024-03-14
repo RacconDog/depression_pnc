@@ -1148,8 +1148,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.37554997, y: 0.16014999, z: 0}
-    m_Extent: {x: 1.5007501, y: 1.5202501, z: 0}
+    m_Center: {x: 0.37524998, y: 0.16014999, z: 0}
+    m_Extent: {x: 1.50115, y: 1.51935, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2200,7 +2200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1553220087
 Transform:
   m_ObjectHideFlags: 0
@@ -2562,8 +2562,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.3676999, y: 0.026899934, z: 0}
-    m_Extent: {x: 2.4018, y: 3.4050999, z: 0}
+    m_Center: {x: 2.36695, y: 0.027099967, z: 0}
+    m_Extent: {x: 2.40125, y: 3.4048, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2930,7 +2930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2009126980
 Transform:
   m_ObjectHideFlags: 0
@@ -3534,8 +3534,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.0156498, y: -17.113249, z: 0}
-    m_Extent: {x: 29.16445, y: 24.50685, z: 0}
+    m_Center: {x: -1.0160503, y: -17.1143, z: 0}
+    m_Extent: {x: 29.16535, y: 24.507198, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
