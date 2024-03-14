@@ -145,7 +145,7 @@ PlayableDirector:
   m_GameObject: {fileID: 310234812}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: c44511e2981d74dce9d7eb94322647ba, type: 2}
+  m_PlayableAsset: {fileID: 0}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 2
@@ -1148,8 +1148,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.37524998, y: 0.16014999, z: 0}
-    m_Extent: {x: 1.50115, y: 1.51935, z: 0}
+    m_Center: {x: 0.37510002, y: 0.16074997, z: 0}
+    m_Extent: {x: 1.5006, y: 1.5202501, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2412,7 +2412,7 @@ MonoBehaviour:
   inputActions: {fileID: 1649639210}
   im: {fileID: 1287873183}
   world: {fileID: 1385672730}
-  dragMultiplier: 100
+  dragMultiplier: 25
   cursorTexture: {fileID: 2800000, guid: fd36529e4068ddf41b04dad94278f027, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
@@ -2562,8 +2562,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.36695, y: 0.027099967, z: 0}
-    m_Extent: {x: 2.40125, y: 3.4048, z: 0}
+    m_Center: {x: 2.3673499, y: 0.027399898, z: 0}
+    m_Extent: {x: 2.40215, y: 3.4043999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3534,8 +3534,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.0160503, y: -17.1143, z: 0}
-    m_Extent: {x: 29.16535, y: 24.507198, z: 0}
+    m_Center: {x: -1.0153999, y: -17.112701, z: 0}
+    m_Extent: {x: 29.1653, y: 24.507, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
