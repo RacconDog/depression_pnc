@@ -373,8 +373,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 268
-    y: 83
+    x: 269
+    y: 19
     width: 920.5
     height: 526.5
   m_SerializedDataModeController:
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 83
+    y: 19
     width: 267
     height: 526.5
   m_SerializedDataModeController:
@@ -491,8 +491,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be66ffff
-      m_LastClickedID: -39234
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: f4faffffd4a900000aaa0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 53.831787, y: -5.200251, z: -0.090565875}
     speed: 2
-    m_Value: {x: 53.830383, y: -5.2001486, z: -0.09049741}
+    m_Value: {x: 53.831787, y: -5.200251, z: -0.090565875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 3.0496306
     speed: 2
-    m_Value: 3.0427845
+    m_Value: 3.0496306
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 630.5
+    y: 19
     width: 793
     height: 228.5
   m_SerializedDataModeController:
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 83.5}
     m_SelectedIDs: c2aa0000
     m_LastClickedID: 43714
-    m_ExpandedIDs: 00000000c2aa000000ca9a3b
+    m_ExpandedIDs: 0000000014ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1263,7 +1263,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c2aa000000ca9a3b
+    m_ExpandedIDs: 0000000014ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1400,10 +1400,10 @@ MonoBehaviour:
     editType: 0
     timeReferenceMode: 0
   m_LockTracker:
-    m_IsLocked: 1
+    m_IsLocked: 0
   m_SequenceHierarchy: {fileID: 0}
   m_SequencePath:
-    m_SelectionRoot: -39234
+    m_SelectionRoot: 0
     m_SubElements: []
 --- !u!114 &21
 MonoBehaviour:
@@ -1426,8 +1426,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 794
-    y: 630.5
+    x: 795
+    y: 19
     width: 394.5
     height: 228.5
   m_SerializedDataModeController:
@@ -1462,8 +1462,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1190.5
-    y: 83
+    x: 1191.5
+    y: 19
     width: 248.5
     height: 776
   m_SerializedDataModeController:
