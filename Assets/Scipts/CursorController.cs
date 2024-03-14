@@ -47,7 +47,7 @@ public class CursorController : MonoBehaviour
         }
 
         var rayHit = Physics2D.GetRayIntersection(mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
-        if (rayHit) 
+        if (rayHit && rayHit.transform.gameObject == im.interactables[im.gameIndex].gameObject) 
         {
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
         }
