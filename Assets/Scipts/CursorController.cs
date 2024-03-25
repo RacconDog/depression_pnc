@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Playables;
 
 public class CursorController : MonoBehaviour
 {
     [SerializeField] PlayerInput inputActions;
     [SerializeField] InteractablesManager im;
+    [SerializeField] InteractablesManager imSidequest;
     [SerializeField] GameObject world;
     [SerializeField] float dragMultiplier;
     bool dragableState = false;
@@ -46,24 +47,30 @@ public class CursorController : MonoBehaviour
         }
 
         var rayHit = Physics2D.GetRayIntersection(mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
-        if (rayHit && rayHit.transform.gameObject == im.interactables[im.gameIndex].gameObject) 
+
+        if (rayHit) 
         {
+            print(rayHit.transform.gameObject);
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
         }
         else
         {
             Cursor.SetCursor(null, hotSpot, cursorMode);
         }
-
+        if (Input.GetMouseButtonDown(0))
+        {
+            CheckClick();
+        }
     }
 
-    public void OnClick(InputAction.CallbackContext context)
+    void CheckClick()
     {
-        if (! context.started) return;
 
         var rayHit = Physics2D.GetRayIntersection(mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
         if (! rayHit.collider) return;
-        
-        im.PlayAnim(rayHit.transform.gameObject);
+
+        print("clicked!!!");
+
+        rayHit.transform.gameObject.GetComponent<interactable>().im.PlayAnim(rayHit.transform.gameObject);
     }
 }
