@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 26959955}
   - component: {fileID: 26959956}
   m_Layer: 0
-  m_Name: IM Sidequest
+  m_Name: IM openbook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168,6 +168,8 @@ MonoBehaviour:
   animations:
   - {fileID: 11400000, guid: 4af94d4dc250d40898174f425a752107, type: 2}
   dogAnim: {fileID: 1174243844}
+  book: {fileID: 1058947178}
+  closeText: {fileID: 385488782}
   timeline: {fileID: 188088226}
   isSidequest: 1
   gameIndex: 1
@@ -587,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36bb8c72d4235481d92c0030040a0164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  im: {fileID: 0}
+  im: {fileID: 828017584}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +986,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813900640}
   m_CullTransparentMesh: 1
+--- !u!1 &828017582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828017583}
+  - component: {fileID: 828017584}
+  m_Layer: 0
+  m_Name: IM closebook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &828017583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828017582}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2009126980}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &828017584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828017582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28562808011445244936b2d565590b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactables:
+  - {fileID: 385488782}
+  animations:
+  - {fileID: 11400000, guid: 644f2c37f9639477b8bd00c249105abf, type: 2}
+  dogAnim: {fileID: 1174243844}
+  book: {fileID: 1058947178}
+  closeText: {fileID: 385488782}
+  timeline: {fileID: 188088226}
+  isSidequest: 1
+  gameIndex: 1
 --- !u!1 &895614047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,8 +1785,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.37514997, y: 0.15970004, z: 0}
-    m_Extent: {x: 1.50045, y: 1.5201, z: 0}
+    m_Center: {x: 0.37445003, y: 0.16100001, z: 0}
+    m_Extent: {x: 1.50055, y: 1.5208, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2682,6 +2738,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 478aab31f26f287408291afc36b02c80, type: 2}
   - {fileID: 11400000, guid: c44511e2981d74dce9d7eb94322647ba, type: 2}
   dogAnim: {fileID: 1174243844}
+  book: {fileID: 0}
+  closeText: {fileID: 0}
   timeline: {fileID: 310234813}
   isSidequest: 0
   gameIndex: 1
@@ -3574,8 +3632,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.3674, y: 0.027749896, z: 0}
-    m_Extent: {x: 2.4012, y: 3.4047499, z: 0}
+    m_Center: {x: 2.36745, y: 0.026199937, z: 0}
+    m_Extent: {x: 2.4013498, y: 3.4043999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4292,6 +4350,7 @@ Transform:
   - {fileID: 327337491}
   - {fileID: 1287873184}
   - {fileID: 26959955}
+  - {fileID: 828017583}
   - {fileID: 1649639209}
   - {fileID: 310234814}
   - {fileID: 188088227}
@@ -5039,8 +5098,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.0146999, y: -17.112299, z: 0}
-    m_Extent: {x: 29.1649, y: 24.5073, z: 0}
+    m_Center: {x: -1.0153999, y: -17.113249, z: 0}
+    m_Extent: {x: 29.1653, y: 24.50825, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
