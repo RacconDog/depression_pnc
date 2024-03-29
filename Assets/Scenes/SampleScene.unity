@@ -170,7 +170,7 @@ MonoBehaviour:
   dogAnim: {fileID: 1174243844}
   book: {fileID: 1058947178}
   closeText: {fileID: 385488782}
-  timeline: {fileID: 188088226}
+  timeline: {fileID: 1746101232}
   isSidequest: 1
   gameIndex: 1
 --- !u!1 &188088225
@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 188088227}
   - component: {fileID: 188088226}
   m_Layer: 0
-  m_Name: Timeline Sidequest
+  m_Name: Timeline CloseBook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,8 +199,8 @@ PlayableDirector:
   m_GameObject: {fileID: 188088225}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
-  m_InitialState: 1
+  m_PlayableAsset: {fileID: 11400000, guid: 644f2c37f9639477b8bd00c249105abf, type: 2}
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 2
   m_InitialTime: 0
@@ -1785,8 +1785,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.37445003, y: 0.16100001, z: 0}
-    m_Extent: {x: 1.50055, y: 1.5208, z: 0}
+    m_Center: {x: 0.37545002, y: 0.16040003, z: 0}
+    m_Extent: {x: 1.50155, y: 1.5194, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3632,8 +3632,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.36745, y: 0.026199937, z: 0}
-    m_Extent: {x: 2.4013498, y: 3.4043999, z: 0}
+    m_Center: {x: 2.3667, y: 0.027050018, z: 0}
+    m_Extent: {x: 2.4016001, y: 3.40425, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3843,6 +3843,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1746101230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746101231}
+  - component: {fileID: 1746101232}
+  m_Layer: 0
+  m_Name: Timeline OpenBook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746101231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746101230}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2009126980}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1746101232
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746101230}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4af94d4dc250d40898174f425a752107, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 2
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 1174243840}
+  - key: {fileID: -705396530698979018, guid: 25eee0f86a7a6394b8e264939c0a5345, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8366272012811016417, guid: 25eee0f86a7a6394b8e264939c0a5345, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2893602779133197385, guid: 25eee0f86a7a6394b8e264939c0a5345, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3904774105295189503, guid: 25eee0f86a7a6394b8e264939c0a5345, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1255537757833302349, guid: 25eee0f86a7a6394b8e264939c0a5345, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7677779671330918782, guid: d3b6669da5fc87c41893dae3e61a08ac, type: 2}
+    value: {fileID: 813900642}
+  - key: {fileID: -5695808842347958448, guid: d3b6669da5fc87c41893dae3e61a08ac, type: 2}
+    value: {fileID: 1920405312}
+  - key: {fileID: 1089502157112724551, guid: d3b6669da5fc87c41893dae3e61a08ac, type: 2}
+    value: {fileID: 1702749940}
+  - key: {fileID: -7194366938727441080, guid: 478aab31f26f287408291afc36b02c80, type: 2}
+    value: {fileID: 1174243840}
+  - key: {fileID: -5794342930523171370, guid: c44511e2981d74dce9d7eb94322647ba, type: 2}
+    value: {fileID: 1174243840}
+  - key: {fileID: -6565144826887597891, guid: 8a188cdf93f374091a361be0f494926e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7601902014838380090, guid: d9e1e3c02bf6242ada4ae311c3a6ea9c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3461424823958025575, guid: c44511e2981d74dce9d7eb94322647ba, type: 2}
+    value: {fileID: 1516269765}
+  - key: {fileID: 7992763551322577105, guid: 4af94d4dc250d40898174f425a752107, type: 2}
+    value: {fileID: 1726334284}
+  - key: {fileID: -2037546952435848407, guid: 4af94d4dc250d40898174f425a752107, type: 2}
+    value: {fileID: 2089683634}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 846144225159898089, guid: 644f2c37f9639477b8bd00c249105abf, type: 2}
+    value: {fileID: 1726334284}
+  - key: {fileID: -5708972338264430454, guid: 644f2c37f9639477b8bd00c249105abf, type: 2}
+    value: {fileID: 2089683634}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1920405309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4441,7 @@ Transform:
   - {fileID: 1649639209}
   - {fileID: 310234814}
   - {fileID: 188088227}
+  - {fileID: 1746101231}
   - {fileID: 658502909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5098,8 +5186,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.0153999, y: -17.113249, z: 0}
-    m_Extent: {x: 29.1653, y: 24.50825, z: 0}
+    m_Center: {x: -1.0145998, y: -17.11295, z: 0}
+    m_Extent: {x: 29.165, y: 24.50785, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
